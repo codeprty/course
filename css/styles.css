@@ -1,0 +1,113 @@
+/* === Reset & Global === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button, .join-us-button, .get-started-button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+}
+
+/* Layout Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* === Navigation Bar === */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background-color: #fff;
+  list-style: none;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* === Logo === */
+.nav-bar .logo img {
+  height: 40px;
+  width: auto;
+}
+
+/* === Navigation Items (Right Side) === */
+.nav-bar li {
+  position: relative;
+  margin-left: 30px;
+}
+
+/* Push logo to the left and other items to the right */
+.nav-bar .logo {
+  margin-right: auto;
+}
+
+/* Menu Links */
+.nav-bar li a {
+  color: #333;
+  font-size: 16px;
+  padding: 8px;
+  transition: color 0.3s ease;
+}
+
+.nav-bar li a:hover {
+  color: #007bff;
+}
+
+/* === Dropdown Menu === */
+.nav-bar li ul.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  padding: 10px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  min-width: 180px;
+  z-index: 1000;
+}
+
+.nav-bar li:hover ul.dropdown {
+  display: block;
+}
+
+.nav-bar li ul.dropdown li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar li ul.dropdown li a {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  white-space: nowrap;
+}
+
+.nav-bar li ul.dropdown li a:hover {
+  background-color: #f0f0f0;
+  color: #007bff;
+}
