@@ -139,7 +139,7 @@ button, .join-us-button, .get-started-button {
 }
 
 /* Overlay text */
-.header-text {
+.header-title {
   position: absolute;
   top: 15%;
   left: 8%;
@@ -148,14 +148,14 @@ button, .join-us-button, .get-started-button {
   z-index: 2;
 }
 
-.header-text h1 {
+.header-title h1 {
   font-size: 46px;
   font-weight: 900;
   margin-bottom: 5px;
   line-height: 1.2;
 }
 
-.header-text h2 {
+.header-title h2 {
   font-size: 20px;
   margin-bottom: 20px;
   line-height: 1.2;
