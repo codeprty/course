@@ -29,13 +29,56 @@
             </nav>
         </header>
         <main>
-
-        <!--Contact Us Form-->
-        <section class="contact-section">
-            <div class="container">
-            </div>
-        </section>
-
+            <!--Header-->
+            <section class="contact-header">
+                <div class="container">
+                    <div class="contact-title">
+                        <h1>Contact Us</h1>
+                        <h2>Have a question or feedback? Get in touch with us!</h2>
+                    </div>
+                </div>
+            </section>
+            
+            <!--Contact Us Form-->
+            <section class="contact-form-section">
+                <div class="container">
+                    <div class="contact-form">
+                        <form action="#" method="POST">
+                            <label for="category">Category:</label>
+                            <select id="category" name="category" required>
+                                <option value="" disabled selected>Select a category</option>
+                                <option value="bug">Bug Report</option>
+                                <option value="feedback">General Feedback</option>
+                                <option value="suggestion">Suggestion</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Type your comment here..." required></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            <!--Additional Contact Info-->
+            <section class="contact-address-section">
+                <div class="container">
+                    <div class="contact-address">
+                        <h3>Our Address</h3>
+                        <address>
+                            CodeNest<br>
+                            Lot 322, Top Floor<br>
+                            Lorong Rubber 12, Jalan Rubber<br>
+                            93400 Kuching, Sarawak.<br>
+                            <a href="mailto:contact@codenest.com">contact@codenest.com</a>
+                        </address>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
             <div class="container">
