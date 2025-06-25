@@ -608,3 +608,108 @@ footer {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
+
+/* === Contact Us Page Header === */
+.contact-header {
+  padding: 100px 50px;
+  background-color: #ffe6e6;
+  background-image: url('../images/contact.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.contact-title h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: 900;
+}
+
+.contact-title h2 {
+  font-size: 20px;
+  color: #222;
+}
+
+/* === Contact Form Section === */
+.contact-form-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #004699;
+}
+
+/* === Contact Address Section === */
+.contact-address-section {
+  background-color: #f9fbfc;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-address h3 {
+  font-size: 22px;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.contact-address address {
+  font-style: normal;
+  color: #444;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.contact-address a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact-address a:hover {
+  text-decoration: underline;
+}
