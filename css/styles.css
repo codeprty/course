@@ -115,14 +115,14 @@ button, .join-us-button, .get-started-button {
 }
 
 /* === Header Section Layout === */
-.header-section {
+.home-header {
   position: relative;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 /* Container is relative to control overlay */
-.header-section .container {
+.home-header .container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -139,7 +139,7 @@ button, .join-us-button, .get-started-button {
 }
 
 /* Overlay text */
-.header-title {
+.home-title {
   position: absolute;
   top: 15%;
   left: 8%;
@@ -148,14 +148,14 @@ button, .join-us-button, .get-started-button {
   z-index: 2;
 }
 
-.header-title h1 {
+.home-title h1 {
   font-size: 46px;
   font-weight: 900;
   margin-bottom: 5px;
   line-height: 1.2;
 }
 
-.header-title h2 {
+.home-title h2 {
   font-size: 20px;
   margin-bottom: 20px;
   line-height: 1.2;
@@ -471,7 +471,7 @@ footer {
 }
 
 /* === About Page Header === */
-.about-section {
+.about-header {
   background-color: #f0f8ff;
   background-image: url('../images/team.jpg');
   background-size: cover;
