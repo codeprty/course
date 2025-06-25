@@ -982,3 +982,110 @@ button, .join-us-button, .get-started-button {
 .already-account a:hover {
   text-decoration: underline;
 }
+
+/* === Sign In Header Section === */
+.signin-header-section {
+  padding: 60px 20px 30px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.signin-header-section h1 {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.signin-header-section p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* === Sign In Form Section === */
+.signin-form-section {
+  padding: 40px 20px 60px;
+  background-color: #ffffff;
+}
+
+.signin-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #e8e8eb;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.signin-form label {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.signin-form input[type="email"],
+.signin-form input[type="password"] {
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+.signin-form input:focus {
+  outline: none;
+  border-color: #007acc;
+  box-shadow: 0 0 5px rgba(0, 122, 204, 0.2);
+}
+
+/* Forgot Password */
+.forgot-password {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.forgot-password a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* Submit Button */
+.signin-form button[type="submit"] {
+  margin-top: 25px;
+  padding: 12px 20px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signin-form button:hover {
+  background-color: #005fa3;
+}
+
+/* No account text */
+.no-account {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.no-account a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.no-account a:hover {
+  text-decoration: underline;
+}
