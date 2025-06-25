@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="CodeNest offers flexible, industry-relevant coding courses to help you unlock your career potential.">
+        <title>Sign IN | CodeNest</title>
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <!--Navigation Bar-->
+            <nav>
+                <ul class="nav-bar">
+                    <li class="logo"><a href="index.html"><img src="images/codenest.png" alt="CodeNest Logo"></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Courses</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Python</a></li>
+                            <li><a href="#">Java</a></li>
+                            <li><a href="#">C#</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="signin.html">Sign In</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!-- Sign In Header -->
+             <section class="signin-header-section">
+                <div class="container">
+                    <h1>Welcome Back</h1>
+                    <p>Sign in to access your courses and continue learning!</p>
+                </div>
+            </section>
+
+            <!-- Sign In Form -->
+            <section class="signin-form-section">
+                <div class="container">
+                    <form class="signin-form" action="#" method="POST">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                        
+                        <!-- Forgot Password Link -->
+                        <div class="forgot-password">
+                            <a href="#">Forgot password?</a>
+                        </div>
+                        
+                        <button type="submit">Sign In</button>
+                        
+                        <!-- No account yet -->
+                         <div class="no-account">
+                            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 CodeNest. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
