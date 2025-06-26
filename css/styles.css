@@ -747,7 +747,7 @@ button, .join-us-button, .get-started-button {
   background-image: url('../images/contact.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 65% 35%;
   text-align: center;
 }
 
@@ -759,7 +759,7 @@ button, .join-us-button, .get-started-button {
 
 .contact-title h2 {
   font-size: 20px;
-  color: #222;
+  color: white;
 }
 
 /* === Contact Form Section === */
