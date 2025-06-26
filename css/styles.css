@@ -904,22 +904,6 @@ button, .join-us-button, .get-started-button {
   box-shadow: 0 0 5px rgba(0, 122, 204, 0.2);
 }
 
-/* Forgot password link */
-.forgot-password {
-  text-align: right;
-  margin-top: 10px;
-  font-size: 14px;
-}
-
-.forgot-password a {
-  color: #007acc;
-  text-decoration: none;
-}
-
-.forgot-password a:hover {
-  text-decoration: underline;
-}
-
 /* Terms and Conditions */
 .terms {
   display: flex;
