@@ -48,7 +48,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $insertProfile->bind_param("is", $accountId, $fullName);
 
         if ($insertProfile->execute()) {
-            echo "Registration successful! <a href='signin.html'>Sign in</a>";
+            header("Location: signin.html");
+            exit;
         } else {
             echo "Failed to create user profile.";
         }
